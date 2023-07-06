@@ -5,6 +5,9 @@ const { io } = require('../index');
 io.on('connection', client => {
     console.log('Cliente conectado');
 
+    //cliente con JWT?
+    
+
     client.on('disconnect', () => {
         console.log('Cliente desconectado');
     });
