@@ -11,7 +11,7 @@ const dbConnection = async() => {
         console.log('init db config & online');
     } catch (e) {
         console.log(e);
-        throw new Error('Error en al DB');
+        throw new Error('Error en la DB');
     }
 }
 
